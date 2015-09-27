@@ -6,3 +6,11 @@ The csv-input file is currently hard coded to 'newuserdata.csv' and the output f
 Usage: If your Plone instance get started with the command ./bin/instance start and is e.g. named 'testing' you could run this script with:
 
 `./bin/instance -O testing run addMember.py`
+
+# getMember.py
+
+This Python script gets members from a Plone instance and write them to a csv-file.
+
+Usage: If your Plone instance get started with the command ./bin/instance start and is e.g. named 'testing' you could run this script with:
+
+`./bin/instance -O testing run getMember.py`
